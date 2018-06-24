@@ -71,17 +71,17 @@ $font-icon-name: 'fe';
   border-radius: 50%;
 
   &-twitter {
-    background-color: $color-twitter;
+    background-color: $icon-twitter-color;
     @include create-icon-font-content($icon-twitter);
   }
 
   &-facebook {
-    background-color: $color-facebook;
+    background-color: $icon-facebook-color;
     @include create-icon-font-content($icon-facebook);
   }
 
   &-google {
-    background-color: $color-google;
+    background-color: $icon-google-color;
     @include create-icon-font-content($icon-google);
   }
 }
