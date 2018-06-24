@@ -1,5 +1,7 @@
 // Mixin for convert variable font
 // Read more at: https://github.com/sass/sass/issues/659#issuecomment-71759457
 @mixin create-icon-font-content($icon-code) {
-  content: #{"\"\\"}#{$icon-code + "\""};
+  &::before {
+    content: #{"\"\\"}#{$icon-code + "\""};
+  }
 }
