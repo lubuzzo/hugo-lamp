@@ -42,18 +42,18 @@ $font-icon-name: 'fe';
 
 // Font code
 .icon {
-  &-menu {@include create-icon-font-content($icon-menu); }
-  &-email {@include create-icon-font-content($icon-email); }
-  &-rss {@include create-icon-font-content($icon-rss); }
-  &-github {@include create-icon-font-content($icon-github); }
-  &-dribbble {@include create-icon-font-content($icon-dribbble); }
-  &-linkedin {@include create-icon-font-content($icon-linkedin); }
-  &-twitter {@include create-icon-font-content($icon-twitter); }
-  &-facebook {@include create-icon-font-content($icon-facebook); }
-  &-instagram {@include create-icon-font-content($icon-instagram); }
-  &-youtube {@include create-icon-font-content($icon-youtube); }
-  &-google {@include create-icon-font-content($icon-google); }
-  &-clock {@include create-icon-font-content($icon-clock); }
+  &-menu { @include create-icon-font-content($icon-menu); }
+  &-email { @include create-icon-font-content($icon-email); }
+  &-rss { @include create-icon-font-content($icon-rss); }
+  &-github { @include create-icon-font-content($icon-github); }
+  &-dribbble { @include create-icon-font-content($icon-dribbble); }
+  &-linkedin { @include create-icon-font-content($icon-linkedin); }
+  &-twitter { @include create-icon-font-content($icon-twitter); }
+  &-facebook { @include create-icon-font-content($icon-facebook); }
+  &-instagram { @include create-icon-font-content($icon-instagram); }
+  &-youtube { @include create-icon-font-content($icon-youtube); }
+  &-google { @include create-icon-font-content($icon-google); }
+  &-clock { @include create-icon-font-content($icon-clock); }
 }
 
 // Sharing on social networks
@@ -71,17 +71,17 @@ $font-icon-name: 'fe';
   border-radius: 50%;
 
   &-twitter {
-    background-color: $icon-twitter-color;
     @include create-icon-font-content($icon-twitter);
+    background-color: $icon-twitter-color;
   }
 
   &-facebook {
-    background-color: $icon-facebook-color;
     @include create-icon-font-content($icon-facebook);
+    background-color: $icon-facebook-color;
   }
 
   &-google {
-    background-color: $icon-google-color;
     @include create-icon-font-content($icon-google);
+    background-color: $icon-google-color;
   }
 }
