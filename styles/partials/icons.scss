@@ -42,18 +42,18 @@ $font-icon-name: 'fe';
 
 // Font code
 .icon {
-  &-menu { &:before { @include variable-icon-font($icon-menu); } }
-  &-email { &:before { @include variable-icon-font($icon-email); } }
-  &-rss { &:before { @include variable-icon-font($icon-rss); } }
-  &-github { &:before { @include variable-icon-font($icon-github); } }
-  &-dribbble { &:before { @include variable-icon-font($icon-dribbble); } }
-  &-linkedin { &:before { @include variable-icon-font($icon-linkedin); } }
-  &-twitter { &:before { @include variable-icon-font($icon-twitter); } }
-  &-facebook { &:before { @include variable-icon-font($icon-facebook); } }
-  &-instagram { &:before { @include variable-icon-font($icon-instagram); } }
-  &-youtube { &:before { @include variable-icon-font($icon-youtube); } }
-  &-google { &:before { @include variable-icon-font($icon-google); } }
-  &-clock { &:before { @include variable-icon-font($icon-clock); } }
+  &-menu { &:before { @include create-icon-font-content($icon-menu); } }
+  &-email { &:before { @include create-icon-font-content($icon-email); } }
+  &-rss { &:before { @include create-icon-font-content($icon-rss); } }
+  &-github { &:before { @include create-icon-font-content($icon-github); } }
+  &-dribbble { &:before { @include create-icon-font-content($icon-dribbble); } }
+  &-linkedin { &:before { @include create-icon-font-content($icon-linkedin); } }
+  &-twitter { &:before { @include create-icon-font-content($icon-twitter); } }
+  &-facebook { &:before { @include create-icon-font-content($icon-facebook); } }
+  &-instagram { &:before { @include create-icon-font-content($icon-instagram); } }
+  &-youtube { &:before { @include create-icon-font-content($icon-youtube); } }
+  &-google { &:before { @include create-icon-font-content($icon-google); } }
+  &-clock { &:before { @include create-icon-font-content($icon-clock); } }
 }
 
 // Sharing on social networks
@@ -72,16 +72,16 @@ $font-icon-name: 'fe';
 
   &-twitter {
     background-color: $color-twitter;
-    &:before { @include variable-icon-font($icon-twitter); }
+    &:before { @include create-icon-font-content($icon-twitter); }
   }
 
   &-facebook {
     background-color: $color-facebook;
-    &:before { @include variable-icon-font($icon-facebook); }
+    &:before { @include create-icon-font-content($icon-facebook); }
   }
 
   &-google {
     background-color: $color-google;
-    &:before { @include variable-icon-font($icon-google); }
+    &:before { @include create-icon-font-content($icon-google); }
   }
 }
