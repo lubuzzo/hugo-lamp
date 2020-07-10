@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/huyb1991/hugo-lamp",
   "devDependencies": {
-    "autoprefixer": "^8.5.1",
+    "autoprefixer": "^8.6.5",
     "cssnano": "^3.10.0",
     "node-sass": "^4.9.0",
     "nodemon": "^1.17.5",
