@@ -33,7 +33,7 @@
     "autoprefixer": "^8.5.1",
     "cssnano": "^3.10.0",
     "node-sass": "^4.9.0",
-    "nodemon": "^1.17.5",
+    "nodemon": "^1.19.4",
     "postcss": "^6.0.22"
   },
   "dependencies": {}
